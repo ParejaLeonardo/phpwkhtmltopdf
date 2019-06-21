@@ -1,5 +1,5 @@
 {
-    "name": "ParejaLeonardo/phpwkhtmltopdf",
+    "name": "parejaleonardo/phpwkhtmltopdf",
     "description": "FORK of A slim PHP wrapper around wkhtmltopdf with an easy to use and clean OOP interface",
     "keywords": ["pdf", "wkhtmltopdf", "wkhtmltoimage" ],
     "homepage": "http://parejaleonardo.github.com/phpwkhtmltopdf/",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ParejaLeonardo\\wkhtmlto\\": "src/"
+            "parejaleonardo\\wkhtmlto\\": "src/"
         }
     },
     "extra": {
