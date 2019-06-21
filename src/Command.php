@@ -1,5 +1,5 @@
 <?php
-namespace mikehaertl\wkhtmlto;
+namespace parejaleonardo\wkhtmlto;
 
 use mikehaertl\shellcommand\Command as BaseCommand;
 
