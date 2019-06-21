@@ -114,6 +114,11 @@ class Pdf
         } elseif (is_string($options)) {
             $this->addPage($options);
         }
+        
+        //Binary text configuration
+        $binary = '/usr/bin/xvfb-run /usr/bin/wkhtmltopdf';
+        $deprecated_binary = \config::$localRoot . '/../vendor/h4cc/wkhtmltopdf-amd64/bin/wkhtmltopdf-amd64';
+        $this->binary = file_exists('/usr/bin/xvfb-run') ? $binary : $deprecated_binary;
     }
 
     /**
