@@ -1,14 +1,14 @@
 {
-    "name": "mikehaertl/phpwkhtmltopdf",
-    "description": "A slim PHP wrapper around wkhtmltopdf with an easy to use and clean OOP interface",
+    "name": "ParejaLeonardo/phpwkhtmltopdf",
+    "description": "FORK of A slim PHP wrapper around wkhtmltopdf with an easy to use and clean OOP interface",
     "keywords": ["pdf", "wkhtmltopdf", "wkhtmltoimage" ],
-    "homepage": "http://mikehaertl.github.com/phpwkhtmltopdf/",
+    "homepage": "http://parejaleonardo.github.com/phpwkhtmltopdf/",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Michael Haertl",
-            "email": "haertl.mike@gmail.com"
+            "name": "Leonardo Pareja",
+            "email": "lpareja@outlook.es"
         }
     ],
     "require": {
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mikehaertl\\wkhtmlto\\": "src/"
+            "ParejaLeonardo\\wkhtmlto\\": "src/"
         }
     },
     "extra": {
