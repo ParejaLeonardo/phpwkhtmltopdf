@@ -91,6 +91,8 @@ class Image
         } elseif (is_string($options)) {
             $this->setPage($options);
         }
+
+        $this->binary = '/usr/bin/xvfb-run /usr/bin/wkhtmltoimage';
     }
 
     /**
